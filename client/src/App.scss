@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+body{
+    background: linear-gradient(45deg,#686ef6 ,#f75ca4);
+
+}
+
+.main{
+    background: linear-gradient(45deg,#686ef6 ,#f75ca4);
+    &-mor{
+        background: rgba(255, 255, 255, 0.212);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+}
+
+.signin-main {
+    min-height: 100vh;
+    padding: 20px 0;
+    background: linear-gradient(45deg,#686ef6 ,#f75ca4);
+    .signin-container {
+        background: rgba(255, 255, 255, 0.445);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+}
