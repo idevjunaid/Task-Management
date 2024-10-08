@@ -26,13 +26,13 @@ This is a Task Management application built with the MERN stack (MongoDB, Expres
    # In the server folder, create a .env file with the following variables
    - MONGODB_URI=your_mongodb_connection_string
    - JWT_SECRET=your_jwt_secret
-   - PORT=5000
+   - PORT=3345
   ## Usage
     cd server
     npm start
   # In a new terminal, start the frontend
     cd client
-    npm start
+    npm run dev
     
 # Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
