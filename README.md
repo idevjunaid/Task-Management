@@ -22,15 +22,6 @@ This is a Task Management application built with the MERN stack (MongoDB, Expres
 1. Clone the repository:
 
    git clone git@github.com:idevjunaid/Task-Management.git
-   cd Task-Management
-   
-# For client
-cd client
-npm install
-
-# For server
-cd ../server
-npm install
 
    # In the server folder, create a .env file with the following variables
    - MONGODB_URI=your_mongodb_connection_string
@@ -46,4 +37,5 @@ npm install
 # Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
-
+# Contact
+Created by idevjunaid - feel free to contact me!
