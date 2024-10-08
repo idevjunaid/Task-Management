@@ -24,16 +24,16 @@ This is a Task Management application built with the MERN stack (MongoDB, Expres
    git clone git@github.com:idevjunaid/Task-Management.git
    cd Task-Management
    # For client
-      cd client
-      npm install
+      - cd client
+      - npm install
 
    # For server
-      cd ../server
-      npm install
+      - cd ../server
+      - npm install
    # In the server folder, create a .env file with the following variables
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   PORT=5000
+   - MONGODB_URI=your_mongodb_connection_string
+   - JWT_SECRET=your_jwt_secret
+   - PORT=5000
   ## Usage
     cd server
     npm start
